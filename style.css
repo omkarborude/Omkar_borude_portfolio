@@ -1,0 +1,469 @@
+html,body{
+    scroll-behavior: smooth;
+    background-color: #fff;
+    font-family: 'Source Sans Pro',sans-serif;
+    overflow-x: hidden !important;
+    margin:  0px !important;
+    padding:  0px !important; 
+}
+
+*{
+    text-decoration: none !important;
+}
+
+
+.nav{
+    background-color: #f50057;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    box-shadow:  0 19px 38px rgba(0, 0, 0, 0.10);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+
+.nav h4{
+    font-style: bold;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: left;
+}
+
+/* landing page */ 
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    height: 100vh;
+
+}
+.landingText{
+    margin-left: 100px;
+
+}
+
+.landingText span{
+    margin: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.landingText h3{
+    margin: 6px !important;
+    font-size: 28px;
+    opacity: 0.8;
+    line-height: 30px;
+
+}
+
+
+
+.landingText .btn{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 80px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px;
+    background-color: #2f8be0;
+}
+.landingText .btn a{
+    font-size: 20px;
+    color: white;
+}
+
+#landingImg{
+    
+    padding-right: 0px;
+    margin-right: -140px;
+    border-radius: 50%;
+    border: 10px solid #d3d3d3 ;
+
+}
+
+/* About Sectio */
+
+.about{
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText{
+    position: relative;
+    padding: 0 50px;
+    height: inherit;
+}
+
+.aboutText h1{
+    
+    position: relative;
+    left: 110px;
+    
+}
+.myname{
+    font-family: 'Roboto', sans-serif;
+}
+
+.aboutText img{
+    width: 20vw;
+    position: absolute;
+    top: 150px;
+    
+    
+}
+
+.aboutList{
+    width: 50%;
+}
+
+ol{
+    list-style: none;
+    color: #e0501b;
+    
+}
+ol li{
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+    
+}
+li p{
+    font-size: 16px;
+    color: #000;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+    
+}
+li span{
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+    
+    
+}
+
+/*  Cards project & blogs */
+
+.infoSection{
+    height: 600px;
+    
+}
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40ppx;
+    margin-top: 100px;
+
+    
+}
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+
+}
+
+.infoCards .card{
+    border-radius: 5px;
+    position: relative;
+    height: 360px;
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09);
+    
+}
+
+
+.cardbgone{
+    height: 150px;
+    background-color: #ffce63;   
+}
+.cardbgoneb{
+    height: 150px;
+    background-color:#f50057;
+}
+.cardContent{
+    padding: 0 20px;
+    
+}
+.cardContent h2{
+    font-weight: 600;
+}
+.cardContent p{
+    line-height: 30px;
+    opacity: 0.6;
+}
+.cardContent .cardBtn{
+    color: black;
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: #ededed;
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+.cardContent .cardBtn:hover{
+    background-color: #2f8be0;
+}
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    
+}
+
+
+/* Footer */
+
+.footer{
+    height: 100px;
+    background-color: #f50057;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footerlinks a{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.footerlinks .mainlink{
+    color: red;
+}
+
+
+/* Responsive */ 
+
+@media only screen and (max-width: 600px){
+    
+    
+    .nav{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        height: auto;
+        overflow-y: hiddenl
+            
+    }    
+ 
+    .nav h4{
+        font-size: 6vw;
+        margin-top: 10px;
+        margin-bottom: 14px;
+        
+    }
+    
+    .nav .links a{
+        margin-right: 25px;
+        font-size: 12px;
+        font-weight: 600;
+        
+    }
+    
+    
+  /* Landing Pagr */
+    
+    
+    .landing{
+        flex-direction: column-reverse;
+        height: 750px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+    
+    .landingText{
+        margin-left: -0px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .landingText h1{
+        font-size: 6vw;
+        margin: 0 !important;
+    }
+    
+    .landingText h3{
+        font-size: 16px;
+        
+    }
+    
+    
+    .landingText .btn{
+        margin: 0 auto;
+        
+    }
+    
+    .landingText .btn a{
+        font-size: 3vw;
+    }
+    
+    .landingImage img{
+        margin-left: -110px;
+        width: 52vw;
+        margin-bottom: 20px;
+    }
+    
+    /* about */ 
+
+    .about{
+        height: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .aboutText{
+        padding: 0 50px;
+        height: 100px;
+    }
+    
+    .aboutText h1{
+        left: 50px;
+        font-size: 5vw;
+    }
+    
+    .aboutText img{
+        width: 40vw;
+        top: 20px;
+        left: -78px;
+        
+    }
+    
+    .aboutLsit{
+        width: 75%;
+        
+    }
+    
+    ol li{
+        font-size: 26px;
+        
+    }
+    
+    li p{
+        font-size: 14px;
+        
+    }
+    
+    /* info sction */
+    
+    .infoSection{
+        height: auto;
+    }
+    
+    .infoHeader{
+        text-align: center;
+        margin: 40px 0;
+        
+
+    }
+    
+    .infoCards{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: c;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    .infoCards .card{
+        margin-bottom: 80px;
+    }
+    
+    .infoCards .cardbgone img{
+        margin-left: -100px;
+        padding-left: 0;
+        
+    }
+    
+    /* footer */
+    
+    .footer{
+        padding-bottom: 50px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
