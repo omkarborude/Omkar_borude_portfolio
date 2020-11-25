@@ -234,6 +234,20 @@ li span{
     align-items: center;
     transition: all ease-in-out 0.2s;
 }
+.readblog .cardBtn{
+    
+    position: absolute;
+    padding: 10px;
+    background-color: #ededed;
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    
+}
 .cardContent .cardBtn:hover{
     background-color: #2f8be0;
 }
@@ -245,6 +259,37 @@ li span{
     
 }
 
+/* read my blog */ 
+.readblog{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px;
+    height: 200px;    
+    align-items: center;
+    background-color: #f4f0ec;
+}
+
+.readblog .cardBtn{
+    
+    position: absolute;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 20px;
+    margin-left: 46%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    
+}
+.readblog .cardBtn:hover{
+    background-color: blue;
+}
 
 /* Footer */
 
@@ -267,6 +312,16 @@ li span{
 .footerlinks .mainlink{
     color: red;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive */ 
@@ -418,6 +473,12 @@ li span{
         margin-left: -100px;
         padding-left: 0;
         
+    }
+    
+    /* read my blog */
+    
+    .readblog .cardBtn{
+        margin-left: 39%;
     }
     
     /* footer */
