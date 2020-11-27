@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #03dfff;
+}
+.container{
+    position: relative;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.addtask{
+    
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    align-content: center;
+    
+}
+input{
+    align-content: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25pc;
+    width: 90%;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+.addbtn{
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    width: 50px;
+    background-color: #255784;
+    transition: .5s;
+    margin: 0.25rem;
+}
+.addbtn:hover{
+    
+    
+    background: lime;
+    box-shadow: 0 0 10px lime, 0 0 40px lime,
+     0 0 80px lime;
+}
+.notCompleted, .Completed{
+    margin: 5px 0;
+    padding: 20px;
+    
+}
+h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+ol{
+    list-style: none;
+    counter-reset: my-counter;
+}
+ol li{
+    width: 100%;
+    padding: 18px;
+    margin: 5px 0;
+    background: #e96969bb;
+    font-size: 22px;
+    counter-increment:  my-counter;
+
+}
+ol.Completed li{
+    background: #00ff62;
+
+}
+ol li::before{
+    content: counter(my-counter);
+    background: #231382;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+li button{
+    float: right;
+    padding: 5px;
+    font-size: 28px;
+    line-height: 28px;
+    margin-right: 15px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}

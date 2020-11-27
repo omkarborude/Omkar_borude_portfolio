@@ -1,0 +1,146 @@
+.infoSection{
+    height: 600px;
+    
+}
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40ppx;
+    margin-top: 100px;
+
+    
+}
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+
+}
+
+.infoCards .card{
+    border-radius: 5px;
+    position: relative;
+    height: 360px;
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09);
+    
+}
+
+
+.cardbgone{
+    height: 150px;
+    background-color: #ffce63;   
+}
+.cardbgoneb{
+    height: 150px;
+    background-color:#f50057;
+}
+.cardContent{
+    padding: 0 20px;
+    
+}
+.cardContent h2{
+    font-weight: 600;
+}
+.cardContent p{
+    line-height: 30px;
+    opacity: 0.6;
+}
+.cardContent .cardBtn{
+    color: black;
+    position: absolute;
+    right: 20px;
+    padding: 10px;
+    background-color: #ededed;
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardContent .codeBtn{
+    color: black;
+    position: absolute;
+    right: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 85px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+.cardContent .codeBtn:hover{
+    color: white;
+    background-color: red;
+}
+.readblog .cardBtn{
+    
+    position: absolute;
+    padding: 10px;
+    background-color: #ededed;
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    
+}
+.cardContent .cardBtn:hover{
+    background-color: #2f8be0;
+}
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    
+}
+
+/* Responsive layout project list */
+
+
+@media only screen and (max-width: 1200px){
+
+
+.infoSection{
+    height: auto;
+}
+
+.infoHeader{
+    text-align: center;
+    margin: 40px 0;
+    
+
+}
+
+.infoCards{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: c;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.infoCards .card{
+    margin-bottom: 80px;
+}
+
+.infoCards .cardbgone img{
+    margin-left: -100px;
+    padding-left: 0;
+    
+}
+
+}
