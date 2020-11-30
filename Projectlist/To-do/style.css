@@ -6,9 +6,11 @@
 
 body{
     height: 100vh;
-    background: #03dfff;
+    background: black;
 }
 .container{
+    height: auto;
+    background-color: aqua;
     position: relative;
     max-width: 800px;
     padding: 10px;
@@ -30,7 +32,7 @@ input{
     justify-content: center;
     padding: 0.5rem 1rem;
     outline: none;
-    border: none;
+    border: 2px solid black;
     height: 50px;
     border-radius: 25pc;
     width: 90%;
@@ -45,7 +47,7 @@ input{
     border-radius: 25px;
     color: white;
     width: 50px;
-    background-color: #255784;
+    background-color: blue;
     transition: .5s;
     margin: 0.25rem;
 }
@@ -56,8 +58,14 @@ input{
     box-shadow: 0 0 10px lime, 0 0 40px lime,
      0 0 80px lime;
 }
-.notCompleted, .Completed{
-    margin: 5px 0;
+.notCompleted{
+    margin-top: 30px;
+    background-color: red;
+    padding: 20px;
+}
+.Completed{
+    margin-top: 40px;
+    background-color: limegreen;
     padding: 20px;
     
 }
@@ -75,12 +83,14 @@ ol li{
     width: 100%;
     padding: 18px;
     margin: 5px 0;
-    background: #e96969bb;
+    background: #ff6347;
+    border: 2px solid white;
     font-size: 22px;
     counter-increment:  my-counter;
 
 }
 ol.Completed li{
+    border: 2px solid black;
     background: #00ff62;
 
 }
