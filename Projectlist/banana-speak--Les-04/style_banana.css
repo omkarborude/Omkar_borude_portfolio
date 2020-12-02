@@ -1,0 +1,121 @@
+
+    
+
+.main{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.nav{
+    height: 80px;
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    float: left;
+    margin-left: 60px;
+    margin-right: -120px;
+    
+}
+.mirimg{
+    float: right;
+    margin-right: 60px;
+    margin-left: -120px;
+}
+.in{
+    padding: 20px;
+    height: 200px;
+    margin-top: 2px;;
+    
+}
+.img2{
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 55%;
+    
+}
+.img3{
+    margin-top: 40px;
+    margin-right: 10px;
+    height: 55%;
+    float: right;
+}
+textarea{
+    margin-right: -175px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 10px;
+    width: 50%;
+    border: 3px solid black;
+}
+
+button{
+    padding: 10px;
+    width: 250px;
+    margin-top: 10px;
+    background-color: yellow;
+    font-weight: 600;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+#output{
+    margin: auto;
+    background-color: white;
+    height: 150px;
+    width: 50%;
+    border: 3px solid red;
+    margin-top: 10px;
+    padding: 20px;
+    
+}
+    
+.footer{
+    margin-top: 10px;
+    height: 60px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footerlinks a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+
+/* Responsive */
+
+@media only screen and (min-width: 600px){
+    
+    .main{
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        
+    }
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
