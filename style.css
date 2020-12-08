@@ -164,7 +164,7 @@ li span{
 }
 
 
-/* project list */
+/* my project  */
 
 .projectlist{
     margin-top: 50px;
@@ -181,9 +181,10 @@ li span{
 .projectlist .cardBtn{
     
     position: absolute;
+    font-weight: 600;
     padding: 10px;
-    background-color: blue;
-    color: white;
+    border: 3px solid blue;
+    color: blue;
     width: 90px;
     height: 20px;
     margin-left: 45%;
@@ -194,7 +195,9 @@ li span{
     transition: all ease-in-out 0.2s;
 }
 .projectlist .cardBtn:hover{
-    background-color: red;
+    border: 3px solid white;
+    color: white;
+    background-color: blue;
 }
 
 
@@ -217,9 +220,10 @@ li span{
 .readblog .cardBtn{
     
     position: absolute;
+    font-weight: 600;
     padding: 10px;
-    background-color: red;
-    color: white;
+    color: red;
+    border: 3px solid red;
     width: 50px;
     height: 20px;
     margin-left: 46%;
@@ -231,7 +235,9 @@ li span{
     
 }
 .readblog .cardBtn:hover{
-    background-color: blue;
+    border: 3px solid white;
+    color: white;
+    background-color: red;
 }
 
 /* Footer */
