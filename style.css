@@ -245,7 +245,6 @@ li span{
 .footer{
     height: 100px;
     background-color: #f50057;
-
     display: flex;
     flex-direction: column;
     align-items: center;
